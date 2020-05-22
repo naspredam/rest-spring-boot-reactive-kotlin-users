@@ -1,3 +1,7 @@
 spring:
   jackson:
     property-naming-strategy: SNAKE_CASE
+  r2dbc:
+    url: r2dbc:mysql://db:3306/app?autoReconnect=true&useSSL=false
+    username: root
+    password: rootpasswd
